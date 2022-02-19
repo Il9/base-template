@@ -240,6 +240,14 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@ws/core@workspace:packages/core":
+  version: 0.0.0-use.local
+  resolution: "@ws/core@workspace:packages/core"
+  dependencies:
+    rxjs: ^7.5.4
+  languageName: unknown
+  linkType: soft
+
 "acorn-jsx@npm:^5.3.1":
   version: 5.3.2
   resolution: "acorn-jsx@npm:5.3.2"
@@ -367,6 +375,21 @@ __metadata:
   checksum: 9706c088a283058a8a99e0bf91b0a2f75497f185980d9ffa8b304de1d9e58ebda7c72c07ebf01dadedaac5b2907b2c6f566f660d62bd336c3468e960403b9d65
   languageName: node
   linkType: hard
+
+"base-template@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "base-template@workspace:."
+  dependencies:
+    "@il9/eslint-config-base": ^1.0.12
+    "@rushstack/eslint-patch": ^1.1.0
+    "@types/node": ^16.0.0
+    eslint: ^7.0.0
+    prettier: ^2.0.0
+    ts-patch: ^2.0.1
+    typescript: 4.3.2
+    typescript-transform-paths: ^3.3.1
+  languageName: unknown
+  linkType: soft
 
 "brace-expansion@npm:^1.1.7":
   version: 1.1.11
@@ -1653,21 +1676,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-clean-architecture@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "react-clean-architecture@workspace:."
-  dependencies:
-    "@il9/eslint-config-base": ^1.0.12
-    "@rushstack/eslint-patch": ^1.1.0
-    "@types/node": ^16.0.0
-    eslint: ^7.0.0
-    prettier: ^2.0.0
-    ts-patch: ^2.0.1
-    typescript: 4.3.2
-    typescript-transform-paths: ^3.3.1
-  languageName: unknown
-  linkType: soft
-
 "rechoir@npm:^0.6.2":
   version: 0.6.2
   resolution: "rechoir@npm:0.6.2"
@@ -1748,6 +1756,15 @@ __metadata:
   dependencies:
     queue-microtask: ^1.2.2
   checksum: cb4f97ad25a75ebc11a8ef4e33bb962f8af8516bb2001082ceabd8902e15b98f4b84b4f8a9b222e5d57fc3bd1379c483886ed4619367a7680dad65316993021d
+  languageName: node
+  linkType: hard
+
+"rxjs@npm:^7.5.4":
+  version: 7.5.4
+  resolution: "rxjs@npm:7.5.4"
+  dependencies:
+    tslib: ^2.1.0
+  checksum: 6f55f835f2543bc8214900f9e28b6320e6adc95875011fbca63e80a66eb18c9ff7cfdccb23b2180cbb6412762b98ed158c89fd51cb020799d127c66ea38c3c0e
   languageName: node
   linkType: hard
 
@@ -1970,6 +1987,13 @@ __metadata:
   version: 1.14.1
   resolution: "tslib@npm:1.14.1"
   checksum: dbe628ef87f66691d5d2959b3e41b9ca0045c3ee3c7c7b906cc1e328b39f199bb1ad9e671c39025bd56122ac57dfbf7385a94843b1cc07c60a4db74795829acd
+  languageName: node
+  linkType: hard
+
+"tslib@npm:^2.1.0":
+  version: 2.3.1
+  resolution: "tslib@npm:2.3.1"
+  checksum: de17a98d4614481f7fcb5cd53ffc1aaf8654313be0291e1bfaee4b4bb31a20494b7d218ff2e15017883e8ea9626599b3b0e0229c18383ba9dce89da2adf15cb9
   languageName: node
   linkType: hard
 

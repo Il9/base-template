@@ -4,5 +4,8 @@
   "main": "lib/index.js",
   "scripts": {
     "build": "rm -rf lib && tsc"
+  },
+  "dependencies": {
+    "rxjs": "^7.5.4"
   }
 }
