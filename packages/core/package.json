@@ -1,0 +1,8 @@
+{
+  "name": "@ws/core",
+  "description": "Application core",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "rm -rf lib && tsc"
+  }
+}
